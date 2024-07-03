@@ -89,5 +89,5 @@ FROM nginx:latest
 
 ##  Selesai!  🙌
 
-Anda telah berhasil membangun website data diri sederhana dengan Docker! 
+Anda telah berhasil membangun website data diri sederhana dengan Docker dan menyelesaikan Ujian Responsi! 
 
