@@ -1,14 +1,5 @@
 # Tugas Praktikum Docker: Website Data Diri 
 
-**Tujuan:**
-Mempraktikkan pengetahuan Docker yang telah Anda pelajari dengan membangun website data diri sederhana menggunakan dua container Nginx yang saling terhubung. Anda akan menggunakan:
-
-* **Dockerfile (Modul 11)**
-* **Docker Image (Modul 12)**
-* **Docker Run (Modul 9 & 10)**
-* **Docker Network (Modul 13)**
-* **Docker Volume (Modul 14) (Opsional/Tantangan)**
-
 ## Website Anda
 Bangun website data diri sederhana yang terdiri dari **dua halaman** di Killercoda Ubuntu Playground (**Tidak usah terlalu memikirkan soal desain websitenya, yang terpenting dapat menampilkan konten dengan jelas**). Gunakan Docker untuk mengelola container, image, network, dan (opsional) volume.
 Website data diri Anda akan terdiri dari dua halaman sederhana yang di-hosting di container terpisah:
