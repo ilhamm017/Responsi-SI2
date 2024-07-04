@@ -30,9 +30,13 @@ Menampilkan:
    * Pastikan link "profil" mengarah ke `/profil`.
 3. Di dalam `website-profil`, letakkan file gambar profil Anda (`foto.jpg`).
 
-### 2. Dockerfile dan Image (Modul 11 & 12)
+### 2. Docker Network (Modul 13)
 
-#### 2.1.  `Dockerfile` untuk Website Utama (direktori `website-utama`)
+* Buat jaringan Docker dengan nama my-**nama-mahasiswa**-network
+
+### 3. Dockerfile dan Image (Modul 11 & 12)
+
+#### 3.1.  `Dockerfile` untuk Website Utama (direktori `website-utama`)
 
 ```dockerfile
 FROM nginx:latest 
@@ -40,7 +44,7 @@ FROM nginx:latest
 # ... Instruksi untuk mendefinisikan port 80
 ```
 
-#### 2.2.  `Dockerfile` untuk Website Profil (direktori `website-profil`)
+#### 3.2.  `Dockerfile` untuk Website Profil (direktori `website-profil`)
 
 ```dockerfile
 FROM nginx:latest
@@ -48,21 +52,17 @@ FROM nginx:latest
 # ... Instruksi untuk mendefinisikan port 80 
 ```
 
-#### 2.3. Build Image
+#### 4. Build Image
 
 -   **Bangun dua image Docker** dari Dockerfile yang sudah dibuat. Berikan nama yang jelas untuk setiap image (misalnya, website-utama, website-profil).
-
-### 3. Docker Network (Modul 13)
-
-* Buat jaringan Docker dengan nama my-**nama-mahasiswa**-network
-
-### 4. Docker Volume (Modul 14) (Opsional)
+  
+### 5. Docker Volume (Modul 14) (Opsional)
 
 * **Tantangan Tambahan:** 
     *  Buat volume bernama `profile-images`.
     * Konfigurasikan agar container website utama dan profil mengakses gambar profil melalui volume ini.
 
-### 5. Menjalankan Container (Modul 9 & 10)
+### 6. Menjalankan Container (Modul 9 & 10)
 
 1. **Jalankan Container Website Utama**
 
