@@ -87,7 +87,3 @@ FROM nginx:latest
 1. **Buat repositori Git** dan unggah semua file yang diperlukan (Dockerfile, HTML, gambar).
 2. **Buat file README.md**. Jelaskan cara menjalankan website di Killercoda Ubuntu Playground (lengkap dengan perintah Docker).
 
-##  Selesai!  🙌
-
-Anda telah berhasil membangun website data diri sederhana dengan Docker dan menyelesaikan Ujian Responsi! 
-
