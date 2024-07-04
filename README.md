@@ -63,6 +63,7 @@ FROM nginx:latest
     * Konfigurasikan agar container website utama dan profil mengakses gambar profil melalui volume ini.
 
 ### 6. Menjalankan Container (Modul 9 & 10)
+*Jalankan container dengan menyambungkan ke docker network yang sudah kalian buat sebelumnya*
 
 1. **Jalankan Container Website Utama**
 
