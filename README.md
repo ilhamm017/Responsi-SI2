@@ -10,7 +10,7 @@ Mempraktikkan pengetahuan Docker yang telah Anda pelajari dengan membangun websi
 * **Docker Volume (Modul 14) (Opsional/Tantangan)**
 
 ## Website Anda
-Bangun website data diri sederhana yang terdiri dari **dua halaman** di Killercoda Ubuntu Playground. Gunakan Docker untuk mengelola container, image, network, dan (opsional) volume.
+Bangun website data diri sederhana yang terdiri dari **dua halaman** di Killercoda Ubuntu Playground (**Tidak usah terlalu memikirkan soal desain websitenya**). Gunakan Docker untuk mengelola container, image, network, dan (opsional) volume.
 Website data diri Anda akan terdiri dari dua halaman sederhana yang di-hosting di container terpisah:
 
 **1. Halaman Utama**
